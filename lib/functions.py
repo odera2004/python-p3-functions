@@ -3,24 +3,27 @@
 def greet_programmer():
     print("Hello, programmer!")
 
-    greet_programmer()
+
 
 def greet(name):
     print(f"Hello, {name}!")
 
-    greet("name")
 
-def greet_with_default(name="Programmer"):
+
+def greet_with_default(name="programmer"):
     print(f"Hello, {name}!")
 
-    greet_with_default("John")  # Output: Hello, John!
+      # Output: Hello, John!
 
 def add(num1, num2):
-    print("num1 + num2 =", num1 + num2)
+      return num1 + num2
+result = add(45, 55)
+print(result)
+   
 
-    add(5, 7)
 
-def halve(number= 2):
-    print(2 / 2)
+def halve(num1):
+    return num1 / 2
+result = halve(10)
+print(result)
 
-halve("number")
